@@ -1,0 +1,34 @@
+project_id = "mfqantrluvdxrjetwtma"
+
+[functions.send-admin-welcome-email]
+verify_jwt = true
+
+[functions.create-test-student]
+verify_jwt = true
+
+[functions.send-auth-email]
+verify_jwt = false
+
+[functions.send-profile-notification]
+verify_jwt = true
+
+[functions.send-registration-notification]
+verify_jwt = true
+
+[functions.send-event-reminders]
+verify_jwt = false
+
+[functions.send-security-alert]
+verify_jwt = false
+
+[functions.send-2fa-code]
+verify_jwt = false
+
+[functions.verify-2fa-code]
+verify_jwt = false
+
+[functions.log-login-attempt]
+verify_jwt = false
+
+[functions.generate-certificates]
+verify_jwt = true

@@ -1,0 +1,5 @@
+-- Deletar usuários criados incorretamente 
+DELETE FROM auth.users WHERE id IN ('33333333-3333-3333-3333-333333333333', '44444444-4444-4444-4444-444444444444');
+
+-- Deletar das tabelas relacionadas
+DELETE FROM public.usuarios WHERE id IN ('33333333-3333-3333-3333-333333333333', '44444444-4444-4444-4444-444444444444');
